@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/details.css">
+    <title>Detail</title>
+</head>
+<body>
+    <article class="Article__header">
+        <div class="div__revers">
+            <a href="../index.html"><img src="../storage/img/revers.svg"></a>
+        </div>
+    </article>
+    <article class="Article__caja">
+        <div class="div__caja">
+            <div class="div_contain1">
+                <h1>Coldplay<span>: Music of the Spheres</span></h1>
+                <img class="img_ubicacion"   src="../storage/img/ubicacion.svg">
+                <p class="p_1">Gelora Bung Karno Stadium, Jakarta</p>
+                <img class="img_calendario" src="../storage/img/Calender 1.svg">
+                <p class="p_2">November 15 2023</p>
+            </div>
+            <div class="div_contain2">
+                <div class="row1">
+                    <img src="../storage/img/persona1.png">
+                    <img src="../storage/img/persona2.png">
+                    <img src="../storage/img/persona3.png">
+                </div>
+                <h1>50K+ Participants</h1>
+            </div>
+        </div>
+    </article>
+    <article class="Article__body">
+        <h2 class="h2_body">Description</h2>
+        <p class="p_body">Integer id augue iaculis, iaculis orci ut, blandit quam. Donec in elit auctor, finibus quam in, phar. Proin id ligula dictum, covalis enim ut, facilisis massa. Mauris a nisi ut sapien blandit imperdi. Interdum et malesuada fames ac ante ipsum primis in faucibs. Sed posuere egestas nunc ut tempus. Fu ipsum dolor sit amet. <a href="#" class="see-all-link" onclick="openModal()">Read More..</a>
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <h2>Description</h2>
+                    <p>Integer id augue iaculis, iaculis orci ut, blandit quam. Donec in elit auctor, finibus quam in, phar. Proin id ligula dictum, covalis enim ut, facilisis massa. Mauris a nisi ut sapien blandit imperdi. Interdum et malesuada fames ac ante ipsum primis in faucibs. Sed posuere egestas nunc ut tempus. Fu ipsum dolor sit amet.</p>
+                </div>
+            </div>
+         
+            <script>
+                function openModal() {
+                    document.getElementById("modal").style.display = "block";
+                }
+         
+                function closeModal() {
+                    document.getElementById("modal").style.display = "none";
+                }
+            </script></p>
+    </article>
+    <article class="Article__maps">
+        <div class="div_title">
+            <h2>Venue & Location</h2>
+        </div>
+        <div class="div_maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71372.36130624491!2d-122.4468439497806!3d37.760910762613584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1739930315555!5m2!1ses!2sco" width="346" height="212" border-radius="20" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </article>
+    
+    <footer>
+        <div class="footer_area">
+            <div class="f_price">
+                <p>Start from</p>
+                <h3>IDR1.100.000</h3>
+            </div>
+            <div class="div_a">
+                <a href="tickets.html">Buy Ticket</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
