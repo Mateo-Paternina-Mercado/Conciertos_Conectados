@@ -52,7 +52,7 @@ body {
     position: absolute;
     top: 246px;
     left: 22px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.61);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.61); */
 
 }
 .div__caja{
