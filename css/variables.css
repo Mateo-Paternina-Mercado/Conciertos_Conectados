@@ -10,6 +10,8 @@
     --color-9:#0092FC;
     --color-10:#706D6D;
     --background-text: #ffffff00;
+    --backgroung-tickets:background: rgb(145,181,253);
+    --gradient-tickets:background: linear-gradient(90deg, rgba(145,181,253,1) 0%, rgba(240,221,255,1) 100%);
 }
 
 @font-face {
