@@ -358,6 +358,7 @@ a{
     position: relative;
     top: 16.5px;
     left: 13px;
+    text-decoration: none;
     .p_codplay1{
         position: relative;
         left: 10px;
@@ -411,6 +412,7 @@ a{
     font-family: "Inter-SemiBold";
 }
 .div__card_title2{
+    text-decoration: none;
     .p_muse1{
         position: relative;
         left: 10px;
