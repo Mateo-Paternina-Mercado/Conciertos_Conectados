@@ -31,6 +31,11 @@ body{
     position: relative;
 }
 
+a{
+    text-decoration: none;
+    
+}
+
 .Article__header{
     width: 346px;
     height: 231px;
@@ -353,6 +358,24 @@ body{
     position: relative;
     top: 16.5px;
     left: 13px;
+    .p_codplay1{
+        position: relative;
+        left: 10px;
+        img{
+            position: relative;
+            left: -12px;
+        }
+
+    }
+    .p_codplay2{
+        position: relative;
+        left: 10px;
+        img{
+            position: relative;
+            left: -12px;
+        }
+        
+    }
 }
 
 .div__card_subtitle1{
@@ -387,7 +410,26 @@ body{
     font-size: 12px;
     font-family: "Inter-SemiBold";
 }
+.div__card_title2{
+    .p_muse1{
+        position: relative;
+        left: 10px;
+        img{
+            position: relative;
+            left: -12px;
+        }
 
+    }
+    .p_muse2{
+        position: relative;
+        left: 10px;
+        img{
+            position: relative;
+            left: -12px;
+        }
+        
+    }
+}
 .div__card_title2 h1{
     font-size: 12px;
     font-family: "Inter-SemiBold";
